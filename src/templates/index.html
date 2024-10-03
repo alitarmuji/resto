@@ -1,19 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Restaurant Apps</title>
-  </head>
-  <body>
-    <h1>Restaurant Apps Starter Project</h1>
-    <p>Hallo coders! Anda berhasil menjalankan starter project.</p>
-    <p>
-      Jangan lupa untuk menggunakan salah satu gambar yang berada pada ./images/heros
-      sebagai background hero elemen.
-    </p>
-    <img src="./images/heros/hero-image_1.jpg" width="450" alt="" />
-    <img src="./images/heros/hero-image_2.jpg" width="450" alt="" />
-    <img src="./images/heros/hero-image_3.jpg" width="450" alt="" />
-    <img src="./images/heros/hero-image_4.jpg" width="450" alt="" />
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hunger Apps</title>
+    <link rel="stylesheet" href="styles.bundle.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="container">
+            <a href="/" class="logo">Hunger Apps</a>
+            <ul class="nav-menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="#">My Favorites</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <section class="hero">
+        <img src="./images/heros/hero-image_2.jpg" alt="Delicious food spread" class="hero-image">
+    </section>
+    <section class="restaurants">
+        <h2>Daftar Restoran</h2>
+        <ul class="restaurant-list">
+            <!-- we'll generate the list items using JavaScript -->
+        </ul>
+    </section>
+</main>
+
+<footer>
+    <p>Copyright ©2024 - Hunger Apps</p>
+    <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+</footer>
+
+<script src="app.bundle.js"></script>
+</body>
 </html>
